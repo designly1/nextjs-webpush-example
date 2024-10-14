@@ -1,9 +1,6 @@
 'use server';
 
 import webpush, { PushSubscription } from 'web-push';
-import { cookies } from 'next/headers';
-
-import { DEVICE_ID_KEY } from './provider';
 
 type T_KvListKeyItem = {
 	name: string;
